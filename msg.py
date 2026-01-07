@@ -14,7 +14,7 @@ FROM_EMAIL = 'saiteja1234v@gmail.com'  # The specific sender to watch
 TWILIO_SID = 'ACb89fa8c68bd0c03ed9a4299a2f7c19ef'
 TWILIO_AUTH = '9a4b9609000327b3e444d9d3b57e9de0'
 FROM_WHATSAPP = 'whatsapp:+14155238886'  # Twilio Sandbox number
-TO_WHATSAPP = 'whatsapp:+919705602313'   # Your verified number
+TO_WHATSAPP = 'whatsapp:+91xxxxxxxxxx'   # Your verified number
 
 # Initialize Twilio client
 client = Client(TWILIO_SID, TWILIO_AUTH)
@@ -63,4 +63,5 @@ while True:
     except Exception as e:
         print("Error:", e)
         time.sleep(60)
+
  
